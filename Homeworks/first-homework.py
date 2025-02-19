@@ -9,3 +9,7 @@ rent =(rent_percentage/100)*salary
 electricity= (electricity_percentage/100)*salary
 
 print(salary, saving, rent, electricity)
+
+total_expense = saving+ rent+ electricity
+
+print (total_expense)
