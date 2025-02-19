@@ -1,0 +1,5 @@
+salary= float(input ("Please enter your month salary: "))
+month=  input ("Provide the name of This month: ")
+saving= float(input ("Enter the percentage for saving: "))
+rent=float(input("Enter the percentage for rent: "))
+electricity=float(input("Enter the percentage for electricity: "))
