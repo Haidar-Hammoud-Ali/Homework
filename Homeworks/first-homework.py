@@ -8,8 +8,10 @@ saving=(saving_percentage/100)* salary
 rent =(rent_percentage/100)*salary
 electricity= (electricity_percentage/100)*salary
 
-print(salary, saving, rent, electricity)
-
 total_expense = saving+ rent+ electricity
+remainder= salary- total_expense
 
-print (total_expense)
+rent_year= rent * 12
+electricity_year= electricity*12
+
+salary_power_2= salary **2
